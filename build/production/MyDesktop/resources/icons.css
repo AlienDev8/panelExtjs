@@ -1,0 +1,15 @@
+.i-shortcut {
+	background-image: url(images/member.png);
+}
+.i-status {
+	background-image:url(images/statusLarge.png);
+}
+.i-start {
+	background-image:url(images/apple.svg);	
+}
+.i-list {
+	background-image:url(images/menu.svg);	
+}
+.i-menu {
+	background-image:url(images/ui_menu.png);	
+}
