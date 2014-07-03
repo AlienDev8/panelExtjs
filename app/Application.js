@@ -80,7 +80,7 @@ Ext.define('MyDesktop.Application', {
             //startBtnText:'Inicio',
             quickStart: [                
                 { name: 'Accordion Window', iconCls: 'i-shortcut', module: 'acc-win' },
-                { name: 'Grid Window', iconCls: 'i-shortcut', module: 'grid-win'}                
+                { name: 'Grid Window', iconCls: 'i-shortcut', handler: function(){alert("Hola");}}                
             ],
             trayItems: [
                 { xtype: 'trayclock', flex: 1 }

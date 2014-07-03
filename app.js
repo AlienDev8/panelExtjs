@@ -5,11 +5,6 @@
  */
 Ext.application({
     name: 'MyDesktop',
-
-   //extend: 'MyDesktop.Application',
-    
-   //autoCreateViewport: 'MyDesktop.view.escritorio.Escritorio'
-	
    ///desktop---------------------
    requires: [
         'MyDesktop.Application'

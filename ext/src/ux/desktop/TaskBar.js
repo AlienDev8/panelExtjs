@@ -134,12 +134,17 @@ Ext.define('Ext.ux.desktop.TaskBar', {
     },
 
     onQuickStartClick: function (btn) {
-        var module = this.app.getModule(btn.module),
-            window;
-
-        if (module) {
-            window = module.createWindow();
-            window.show();
+        if(btn.handler){
+            //buscar la manera de habilitar el evento click para cuando no se abrira un modulo
+           //btn.addListener(btn.handler);
+        } else {
+            var module = this.app.getModule(btn.module),
+                window;            
+            if (module) {
+                window = module.createWindow();
+                window.show();
+            
+            }
         }
     },
     
